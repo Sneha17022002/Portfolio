@@ -1,0 +1,187 @@
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+}
+/*navbar*/
+.navbar {
+  /* display:flex;
+    justify-content:center;
+    align-items:center; */
+  background-color: rgba(0, 0, 0, 1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+}
+
+.navbar ul li {
+  font-family: century;
+  font-size: 1.3rem;
+  font-weight: bold;
+  float: left;
+}
+.navbar ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.navbar ul li a:hover {
+  background-color: rgb(159, 209, 221);
+}
+
+/*home section*/
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(https://res.cloudinary.com/dhbcqfyx4/image/upload/v1639847126/shaji/WhatsApp_Image_2021-12-18_at_10.33.59_PM_jhde0b.jpg);
+  background-size: cover;
+  height: 800px;
+  width: 100%;
+  z-index: -1;
+}
+
+.home .header {
+  margin-top: 8rem;
+  /* padding: 20px;
+    text-align: center;
+    display:flex; 
+    height: 100%;
+    width:100%;
+    align-items:center; */
+  /* padding: 3rem; */
+}
+.header h1 {
+  padding-bottom: 4rem;
+  size: 4rem;
+  font-size: 4rem;
+  color: white;
+  
+}
+span {
+  padding: 1rem;
+}
+.button {
+  padding: 4rem 0 1rem;
+  justify-content: space-between;
+}
+input {
+  padding: 0.5rem;
+  background-color: rgb(87, 87, 87);
+  color: white;
+  border-radius: 1rem;
+}
+.headings {
+  font-family: century;
+  font-size: 3rem;
+  text-align: center;
+  margin: 40px 0px;
+  font-weight: bold;
+  top: 30%;
+  right: 10%;
+  color: rgba(14, 13, 13, 0.973);
+}
+
+/*about us */
+.about {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 3rem;
+}
+.about .intro {
+  font-size: 2rem;
+  text-align: left;
+  margin: 10px 0px;
+  color: #000;
+  padding: 20px;
+}
+
+.about .intro h3 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.about .pic {
+  display: flex;
+}
+.about .pic img {
+  width: 25rem;
+  height: 25rem;
+}
+
+/* skills */
+
+.skills {
+  text-align: left;
+  padding: 3rem;
+
+  display: block;
+}
+.skills .container {
+  width: 100%;
+  background-color: rgb(235, 227, 227);
+  border: 1px solid black;
+  margin-right: auto;
+}
+
+/*services*/
+.services {
+  display: flex;
+  flex-direction: column;
+
+  padding: 3rem;
+}
+
+.services .row {
+  display: flex;
+  justify-content: space-between;
+}
+.services .row .box {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 450px;
+  border: 1px solid black;
+  margin: 10px;
+  align-items: center;
+  text-align: justify;
+  padding: 10px;
+  background: linear-gradient(to top, rgb(165, 195, 207) 50%, white 50%);
+  background-size: 100% 200%;
+  transition: all 0.8s;
+}
+.services .row .box:hover {
+  background-position: left bottom;
+  color: white;
+  border: none;
+  box-shadow: 0 0 30px rgb(141, 174, 177);
+}
+
+/*conatct services*/
+.contact {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  background-color: rgb(156, 183, 201);
+  height: 3.5rem;
+  justify-content: center;
+  align-items: center;
+
+}
